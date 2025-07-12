@@ -7,7 +7,7 @@
 
 import Foundation
 
-public enum OmegaFont: String {
+public enum OmegaFont: String, CaseIterable {
     case regular = "SFProDisplay-Regular"
     case bold = "SFProDisplay-Bold"
     case semiBold = "SFProDisplay-Semibold"

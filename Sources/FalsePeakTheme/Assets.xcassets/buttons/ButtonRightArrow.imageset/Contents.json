@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "ButtonRightArrow.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

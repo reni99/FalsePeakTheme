@@ -16,7 +16,9 @@ let package = Package(
         .target(
             name: "FalsePeakTheme",
             resources: [
-                .process("Colors.xcassets")
+                .process("Colors.xcassets"),
+                .process("Assets.xcassets"),
+                .process("Fonts")
             ]
         ),
         .testTarget(
