@@ -4,7 +4,7 @@ import Foundation
 import CoreGraphics
 import CoreText
 
-struct FalsePeakTheme {
+public struct FalsePeakTheme {
     
     public static func registerFonts() {
         OmegaFont.allCases.forEach {
