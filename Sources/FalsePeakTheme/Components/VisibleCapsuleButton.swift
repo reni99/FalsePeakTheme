@@ -7,8 +7,8 @@
 
 import SwiftUI
 
-struct VisibleCapsuleButton: ButtonStyle {
-    func makeBody(configuration: Configuration) -> some View {
+public struct VisibleCapsuleButton: ButtonStyle {
+    public func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .padding(.marginHalf)
             .background(Color(OmegaColors.Button.visible))
@@ -23,6 +23,6 @@ struct VisibleCapsuleButton: ButtonStyle {
     }
 }
 
-extension ButtonStyle where Self == VisibleCapsuleButton {
+public extension ButtonStyle where Self == VisibleCapsuleButton {
     static var visibleCapsuleButton: Self { Self() }
 }

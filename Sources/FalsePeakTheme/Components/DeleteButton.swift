@@ -7,8 +7,8 @@
 
 import SwiftUI
 
-struct DeleteButton: ButtonStyle {
-    func makeBody(configuration: Configuration) -> some View {
+public struct DeleteButton: ButtonStyle {
+    public func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .frame(maxWidth: .infinity)
             .padding()
@@ -23,6 +23,6 @@ struct DeleteButton: ButtonStyle {
     }
 }
 
-extension ButtonStyle where Self == DeleteButton {
+public extension ButtonStyle where Self == DeleteButton {
     static var delete: Self { Self() }
 }

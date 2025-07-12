@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-extension View {
+public extension View {
     func primaryBackground() -> some View {
         self.background(Color.primaryBackground)
     }

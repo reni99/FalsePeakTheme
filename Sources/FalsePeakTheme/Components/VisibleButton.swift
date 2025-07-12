@@ -7,8 +7,8 @@
 
 import SwiftUI
 
-struct VisibleButton: ButtonStyle {
-    func makeBody(configuration: Configuration) -> some View {
+public struct VisibleButton: ButtonStyle {
+    public func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .frame(maxWidth: .infinity)
             .padding()
@@ -23,6 +23,6 @@ struct VisibleButton: ButtonStyle {
     }
 }
 
-extension ButtonStyle where Self == VisibleButton {
+public extension ButtonStyle where Self == VisibleButton {
     static var visibleButton: Self { Self() }
 }
