@@ -19,4 +19,8 @@ extension Color {
     public static var primaryFontColor: Color {
         return Color(OmegaColors.Text.primary)
     }
+    
+    public static var secondaryFontColor: Color {
+        return Color(OmegaColors.Text.secondary)
+    }
 }
