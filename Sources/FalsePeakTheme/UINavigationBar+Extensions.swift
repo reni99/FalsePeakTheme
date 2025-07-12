@@ -61,12 +61,12 @@ public extension UINavigationBar {
         
         appearance.titleTextAttributes = [
             .foregroundColor: foregroundColor,
-            .font: navigationBarFont
+            .font: navigationBarFont.withSize(17)
         ]
         
         appearance.largeTitleTextAttributes = [
             .foregroundColor: foregroundColor,
-            .font: navigationBarFont.withSize(16)
+            .font: navigationBarFont.withSize(34)
         ]
         
         appearance.buttonAppearance = UIBarButtonItem.createBarButtonAppearance(
