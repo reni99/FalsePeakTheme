@@ -8,7 +8,7 @@ public struct FalsePeakTheme {
     
     public static func registerFonts() {
         OmegaFont.allCases.forEach {
-            registerFont(bundle: .module, fontName: $0.rawValue, fontExtension: "ttf")
+            registerFont(bundle: .module, fontName: $0.resourceName, fontExtension: "otf")
         }
     }
     

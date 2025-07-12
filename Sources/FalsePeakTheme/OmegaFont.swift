@@ -15,4 +15,15 @@ public enum OmegaFont: String, CaseIterable {
     public var name: String {
         rawValue
     }
+    
+    public var resourceName: String {
+        switch self {
+        case .regular:
+            return "SF-Pro-Display-Regular"
+        case .bold:
+            return "SF-Pro-Display-Bold"
+        case .semiBold:
+            return "SF-Pro-Display-Semibold"
+        }
+    }
 }
