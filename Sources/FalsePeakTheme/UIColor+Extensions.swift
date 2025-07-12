@@ -13,7 +13,7 @@ public extension UIColor {
     private class AssetLoader {}
     
     convenience init?(namedApperanceColor colorName: String) {
-        self.init(named: colorName, in: Bundle(for: AssetLoader.self), compatibleWith: UITraitCollection.current)
+        self.init(named: colorName, in: .module, compatibleWith: UITraitCollection.current)
     }
     
     convenience init(dark: OmegaColor, light: OmegaColor) {
